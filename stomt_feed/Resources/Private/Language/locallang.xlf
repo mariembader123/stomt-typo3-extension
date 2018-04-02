@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="messages" date="2018-03-31T22:26:19Z" product-name="stomt_feed">
+		<header/>
+		<body>
+			<trans-unit id="tx_stomt_feed_domain_model_stomtfeed">
+				<source>STOMTFEEDBACK</source>
+			</trans-unit>
+			<trans-unit id="tx_stomt_feed_domain_model_stomtfeed.description">
+				<source>tttttttttttttttttttttttttttttttt</source>
+			</trans-unit>
+			<trans-unit id="tx_stomtfeed_domain_model_example">
+				<source>Example</source>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>
