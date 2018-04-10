@@ -1,0 +1,123 @@
+.button-icons{right: 0; position: fixed; top: 100px; width: 45px; z-index: 9999; }
+.button-icon {background-color: #3b5998; background-image: url('../Icons/media_icon/white-bg-32.png'); }
+.button-text {float: left; font-size: 11px; font-weight: bold; margin: 8px 0 11px 35px; white-space: nowrap; color: #FFFFFF; font-family: Arial; }
+.button-icon {transition: background-color 0.4s ease-in 0s; -webkit-transition: background-color 0.4s ease-in 0s; background-repeat: no-repeat; display: block; vertical-align: middle; float: right; height: 40px; margin-bottom: 2px; width: 43px; }
+.more-icon{background-color: #3b5998; height: 40px; background-image: url('../Icons/media_icon/white-bg-32.png'); transform: rotateY(0deg); -ms-transform:rotateY(0deg); /* IE 9 */ -o-transform:rotateY(0deg); /* IE 9 */ -webkit-transform:rotateY(0deg); /* Safari and Chrome */}
+
+/* Media Button */
+#linkedin-btn .button-icon{ background-position: 0 44.00%; background-color: #007bb6;}
+#twitter-btn .button-icon{ background-position: 0 79.00%; background-color: #55acee;}
+#google-btn .button-icon{ background-position: 0 24.20%; background-color: #dd4b39;}
+#googleplus-btn .button-icon{ background-position: 0 26.35%; background-color: #dd4b39;}
+#more-btn .more-icon{ background-position: 0 90.00%; background-color: #00427c;}
+#xing-btn .button-icon{ background-position: 0 100.00%; background-color: #dd4b39;}
+#instagram-btn .button-icon{ background-position: 0 100.10%; background-color: #00427c;}
+#pinterest-btn .button-icon{ background-position: 0 2.10%; background-color: #cb2029;}
+#email-btn .button-icon{ background-position: 0 17.55%; background-color: #68b6e3;}
+
+/*Media Button Hover effect*/
+#linkedin-btn:hover .button-icon { background-position: 121px 44.00%;}
+#twitter-btn:hover .button-icon{ background-position: 121px 79.00%;}
+#google-btn:hover .button-icon{ background-position: 121px 24.20%;}
+#googleplus-btn:hover .button-icon{ background-position: 121px 26.35%;}
+#facebook-btn:hover .button-icon{ background-position: 121px 0;}
+#more-btn:hover .button-icon{ background-position: 121px 90.00%;}
+#xing-btn:hover .button-icon{ background-position: 121px 100.00%;}
+#instagram-btn:hover .button-icon{ background-position: 121px 100.10%;}
+#pinterest-btn:hover .button-icon{ background-position: 121px 2.10%;}
+#email-btn:hover .button-icon{ background-position: 121px 17.55%;}
+
+/* Buttone Text Effect*/
+#email-btn:hover .button-text,
+#pinterest-btn:hover .button-text,
+#xing-btn:hover .button-text,
+#more-btn:hover .button-text,
+#google-btn:hover .button-text,
+#googleplus-btn:hover .button-text,
+#twitter-btn:hover .button-text,
+#facebook-btn:hover .button-text,
+#linkedin-btn:hover .button-text {margin: 6px 0 11px 10px;}
+
+.button-icons a:hover {text-decoration:none;}
+
+/* buttonModal */
+.modalDialog {
+    position: fixed;
+    font-family: Arial, Helvetica, sans-serif;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(0,0,0,0.2);
+    z-index: 99999;
+    opacity:0;
+    -webkit-transition: opacity 400ms ease-in;
+    -moz-transition: opacity 400ms ease-in;
+    transition: opacity 400ms ease-in;
+    pointer-events: none;
+}
+.moreButton h2 {
+    padding: 15px;
+}
+.modalDialog:target {
+    opacity:1;
+    pointer-events: auto;
+}
+.modalDialog .moreButton {
+    max-width:500px;
+    display: block;
+    width: 100%;
+    position: relative;
+    margin: 10% auto;
+    padding: 15px;
+    box-sizing: content-box;
+    border-radius: 10px;
+    background-color: #fff;
+}
+.close {
+    background: #606061;
+    color: #FFFFFF;
+    line-height: 25px;
+    position: absolute;
+    right: -12px;
+    text-align: center;
+    top: -10px;
+    width: 24px;
+    text-decoration: none;
+    font-weight: bold;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    border-radius: 12px;
+    -moz-box-shadow: 1px 1px 3px #000;
+    -webkit-box-shadow: 1px 1px 3px #000;
+    box-shadow: 1px 1px 3px #000;
+}
+.close:hover {
+    background: #00d9ff;
+}
+
+/* Modal Button */
+.box{width: 33.33%;display: inline-block;}
+.moreButton .socialitems .button-icon{min-width: 160px;}
+.moreButton .socialitems .button-text{display: block;}
+.moreButton .box .button-text{margin: 6px 0 11px 25px;}
+.moreButton #linkedin-btn:hover .button-icon { background-position: 0 44.00%;}
+.moreButton #twitter-btn:hover .button-icon{ background-position: 0 79.00%;}
+.moreButton #google-btn:hover .button-icon{ background-position: 0 24.20%;}
+.moreButton #googleplus-btn:hover .button-icon{ background-position: 0 26.35%;}
+.moreButton #facebook-btn:hover .button-icon{ background-position: 0 0;}
+.moreButton #more-btn:hover .button-icon{ background-position: 0 97.66%;}
+.moreButton #xing-btn:hover .button-icon{ background-position: 0 100.00%;}
+.moreButton #instagram-btn:hover .button-icon{ background-position: 0 100.10%;}
+.moreButton #pinterest-btn:hover .button-icon{ background-position: 0 2.10%;}
+.moreButton #email-btn:hover .button-icon{ background-position: 0 17.55%;}
+
+.moreButton #xing-btn:hover .button-text,
+.moreButton #pinterest-btn:hover .button-text,
+.moreButton #email-btn:hover .button-text,
+.moreButton #more-btn:hover .button-text,
+.moreButton #google-btn:hover .button-text,
+.moreButton #googleplus-btn:hover .button-text,
+.moreButton #twitter-btn:hover .button-text,
+.moreButton #facebook-btn:hover .button-text,
+.moreButton #linkedin-btn:hover .button-text {margin: 6px 0 11px 25px;}

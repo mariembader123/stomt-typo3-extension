@@ -1,0 +1,89 @@
+<T3DataStructure>
+	<sheets>
+		<!--
+			################################
+			  SHEET General Settings
+			################################
+		-->
+		<sDEF>
+			<ROOT>
+				<TCEforms>
+					<sheetTitle>LLL:EXT:drc_social_button/Resources/Private/Language/locallang_db.xlf:tx_drcsocialbutton_domain_model_socialbutton.list_type_pi1</sheetTitle>
+				</TCEforms>
+				<type>array</type>
+				<el>
+					<settings.appid>
+						<TCEforms>
+							<label>LLL:EXT:drc_social_button/Resources/Private/Language/locallang_db.xlf:tx_drcsocialbutton_domain_model_socialbutton.contact</label>
+							<config>
+								<type>input</type>
+								<size>25</size>
+							</config>
+						</TCEforms>
+					</settings.appid>
+					<settings.titl>
+						<TCEforms>
+							<label>Label</label>
+							<config>
+								<type>input</type>
+								<size>25</size>
+							</config>
+						</TCEforms>
+					</settings.titl>
+					<settings.button_position>
+						<TCEforms>
+							<label>LLL:EXT:drc_social_button/Resources/Private/Language/locallang_db.xlf:tx_drcsocialbutton_domain_model_socialbutton.button_position</label>
+							<config>
+								<type>select</type>
+								<items type="array">
+									<numIndex index="1" type="array">
+										<numIndex index="0">LLL:EXT:drc_social_button/Resources/Private/Language/locallang_db.xlf:tx_drcsocialbutton_domain_model_socialbutton.left</numIndex>
+										<numIndex index="1">left</numIndex>
+									</numIndex>
+									<numIndex index="2" type="array">
+										<numIndex index="0">LLL:EXT:drc_social_button/Resources/Private/Language/locallang_db.xlf:tx_drcsocialbutton_domain_model_socialbutton.right</numIndex>
+										<numIndex index="1">right</numIndex>
+									</numIndex>
+								</items>
+							</config>
+						</TCEforms>
+					</settings.button_position>
+					<settings.colorText>
+						<TCEforms>
+							<label>ColorText</label>
+							<config>
+								<type>colorpicker</type>
+								<default>#FFFFFF</default>
+
+							</config>
+						</TCEforms>
+					</settings.colorText>	
+					<settings.colorBackground>
+							<TCEforms>
+								<label>ColorBackground</label>
+								<config>
+									<type>colorpicker</type>
+									<default>#0091C9</default>
+								</config>
+							</TCEforms>
+					</settings.colorBackground>	
+					<settings.colorHover>
+								<TCEforms>
+									<label>ColorHover</label>
+									<config>
+										<type>colorpicker</type>
+										<default>#04729E</default>
+
+									</config>
+								</TCEforms>
+						</settings.colorHover>	
+				</el>				
+			</ROOT>
+		</sDEF>
+		<template>
+			<ROOT>
+				
+			</ROOT>
+		</template>
+	</sheets>
+</T3DataStructure>
