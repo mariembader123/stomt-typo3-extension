@@ -13,6 +13,32 @@ How to integrate STOMT on your Typo3 website?
 3. activate the plugin by clicking on the left-box of "STOMT-FEEDBACK" extension.
 
 
+## Documentation Feed
+### Create feed:
+
+```html
+<div id="stomt_create"></div>
+```
+1. go to page 
+2. select the page where you desire add the feed, then click on content.
+
+3. select "special elements", than "plain html"
+4. copy and paste the code bellow into the html code box and save
+5. clean the cache 
+
+### integrate feed:
+
+```html
+<div id="stomt_feed"></div>
+```
+
+1. go to page 
+2. select the page where you desire add the feed, then click on content.
+
+3. select "special elements", than "plain html"
+4. copy and paste the code bellow into the html code box and save
+5. clean the cache 
+
 
 
 ## Frequently Asked Questions
