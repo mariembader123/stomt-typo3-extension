@@ -1,0 +1,14 @@
+{
+    "name": "destomtfeedback/drc-social-button",
+    "type": "typo3-cms-extension",
+    "description": "The Drc Social Button TYPO3 sharing plugin helps people share your pages to any service, such as Facebook, Twitter, Google, LinkedIn and more social media sites",
+    "author": [],
+    "require": {
+        "typo3/cms-core": "^8.6.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "DeStomtFeedback\\DeStomtFeedback\\": "Classes"
+        }
+    }
+}
